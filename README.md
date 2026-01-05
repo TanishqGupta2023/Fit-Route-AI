@@ -1,4 +1,5 @@
 🏃‍♂️ FitRoute AI – Step & Calorie Prediction App
+
 📌 About
 
 Predicts steps and calories burned for walking routes
