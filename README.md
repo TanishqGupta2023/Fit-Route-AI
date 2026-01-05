@@ -2,36 +2,36 @@
 
 📌 About
 
-. Predicts steps and calories burned for walking routes
+• Predicts steps and calories burned for walking routes
 
-. Uses machine learning (Random Forest Regression)
+• Uses machine learning (Random Forest Regression)
 
-. Deployed as an interactive Streamlit web app
+• Deployed as an interactive Streamlit web app
 
 ✨ Features
 
-. Input: distance, slope level, terrain type, walking speed
+• Input: distance, slope level, terrain type, walking speed
 
-. Output: estimated steps and calories
+• Output: estimated steps and calories
 
-. Summary table and steps vs calories graph
+• Summary table and steps vs calories graph
 
-. Simple and user-friendly UI
+• Simple and user-friendly UI
 
 🛠️ Tech Stack
 
-. Python
+• Python
 
-. NumPy, Pandas
+• NumPy, Pandas
 
-. Scikit-learn
+• Scikit-learn
 
-. Streamlit
+• Streamlit
 
-. Matplotlib
+• Matplotlib
 
 ▶️ Run Locally
 
-. pip install -r requirements.txt
+• pip install -r requirements.txt
 
-. streamlit run app.py
+• streamlit run app.py
