@@ -1,17 +1,36 @@
 🏃‍♂️ FitRoute AI – Step & Calorie Prediction App
+📌 About
 
-📖 Introduction
+Predicts steps and calories burned for walking routes
 
-Walking is a simple yet effective form of physical activity, but the effort required varies depending on route characteristics. FitRoute AI analyzes these variations by applying supervised machine learning (Random Forest Regression) on a synthetically generated dataset. After data preprocessing using label encoding and feature scaling, the trained model is deployed via Streamlit, allowing users to input route details and instantly receive step and calorie predictions. This application helps users understand physical effort and plan walking routes more effectively for fitness and health improvement.
+Uses machine learning (Random Forest Regression)
 
-🛠️ Technologies Used
+Deployed as an interactive Streamlit web app
+
+✨ Features
+
+Input: distance, slope level, terrain type, walking speed
+
+Output: estimated steps and calories
+
+Summary table and steps vs calories graph
+
+Simple and user-friendly UI
+
+🛠️ Tech Stack
 
 Python
+
 NumPy, Pandas
+
 Scikit-learn
+
 Streamlit
+
 Matplotlib
 
-▶️ How to Run
+▶️ Run Locally
+
 pip install -r requirements.txt
+
 streamlit run app.py
